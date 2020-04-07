@@ -1,0 +1,89 @@
+.page{
+    margin-bottom: 3rem;
+}
+.header{
+    position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 2.5rem;
+  z-index: 100;
+  background-color:#008742;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftImg{
+    background: url("../imags/home/arr-left.png") no-repeat;
+    width: 1.5rem;
+  height: 1.5rem;
+  background-size: 100%;
+  background-position: center center;
+  margin-left: 10px;
+}
+.rightImg{
+    background: url("../imags/home/class.png")no-repeat;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: 100%;
+    background-position: center center;
+    margin-right: 10px;
+}
+.header h4{
+    color: white;
+}
+/* 导航结束 */
+/* 轮播开始 */
+.swiper-container{
+    height: 8.5rem;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .swiper-container img{
+    height: 8.5rem;
+    width: 100%;
+  }
+.aside{
+  width: 100%;
+  height: 11rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mouse,.computer{
+  background: #efefef;
+height: 11rem;
+width: 45%;
+border: solid 1px #efefef;
+margin-top: 10px;
+}
+img{
+  width: 100%;
+}
+.text{
+  font-size: 0.6rem;
+  margin-top: 10px;
+}
+.price{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.price1{
+  color: red;
+  font-size: 0.6rem;
+}
+.price2{
+  color: gray;
+  font-size: 0.5rem;
+  text-decoration: line-through;
+}
+.num{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.num1,.num2{
+  color: gray;
+  font-size: 0.6rem;
+}
